@@ -6,8 +6,8 @@ import defaultIMG from './defaultIMG.png';
 
 function Profile ({name,tag,avatar,location,stats}){
     return(
-        <div class="profile">
-  <div class="description">
+        <div >
+  <div >
     <img
       src={avatar}
       alt="user avatar"
@@ -18,18 +18,18 @@ function Profile ({name,tag,avatar,location,stats}){
     <p class="location">{location}</p>
   </div>
 
-  <ul class="stats">
+  <ul>
     <li>
-      <span class="label">Followers</span>
-      <span class="quantity">{stats.followers}</span>
+      <span >Followers</span>
+      <span >{stats.followers}</span>
     </li>
     <li>
-      <span class="label">Views</span>
-      <span class="quantity">{stats.views}</span>
+      <span >Views</span>
+      <span >{stats.views}</span>
     </li>
     <li>
-      <span class="label">Likes</span>
-      <span class="quantity">{stats.likes}</span>
+      <span >Likes</span>
+      <span >{stats.likes}</span>
     </li>
   </ul>
 </div>
